@@ -28,8 +28,54 @@
         </div>
     </div>
 
+
     <div id="content-wrapper">
         <div id="left-bar">
+
+            <div id="adrese-widget" class="widget collapsed">
+                <div class="header" title="Show/Hide content">Adrese </div>
+                <div class="content">
+                    <form>
+                        <p>Name</p>
+                        <input type="text" name="name" >
+                        <p>Phone</p>
+                        <input type="text" name="phone" >
+                        <p>Add</p>
+                        <button type="button" onclick="alert('Add')">Add field?</button>
+                    </form>
+
+
+                </div>
+            </div>
+
+             <div id="calendar-widget" class="widget collapsed">
+                 <div class="header">calendar</div>
+                 <div class="content">
+                <table  style="width:100%" >
+                    <tr>
+                        <th >Luni</th>
+                        <th>Marti</th>
+                        <th>Miercuri</th>
+                    </tr>
+                   <tr>
+                       <td class='luni' onclick=alert('Luni')>1</td>
+                       <td class= 'marti' onclick="alert('Marti')">2</td>
+                       <td class='miercuri' onclick=alert('Miercuri')>3</td>
+                   </tr>
+                    <tr>
+                        <td class='luni' onclick=alert('Luni')>4</td>
+                        <td class='marti' onclick="alert('Marti')">5</td>
+                        <td class='miercuri' onclick="alert('Miercuri')">6</td>
+                    </tr>
+                    <tr>
+                        <td class='luni' onclick="alert('Luni')">7</td>
+                        <td class='marti' onclick="alert('Marti')">8</td>
+                        <td class='miercuri' onclick="alert('Miercuri')">9</td>
+                    </tr>
+                </table>
+             </div>
+                 </div>
+
             <div id="news-widget" class="widget collapsed">
                 <div class="header" title="Show/Hide content">News</div>
                 <div class="content">
@@ -72,15 +118,19 @@
             </div>
         </div>
 
+
         <div id="content">
             <div id="breadcrumb">HOME : welcome home</div>
 
-            <h1>Homework</h1>
-            <p>Write some info about you.</p>
-            <p>
-                Make this web site as you wish. Change/Add any <strong>attributes</strong> you have learned in this example.
-                Add/edit <strong>elements</strong> in HTML page as you wish, to create custom components in your page.
-            </p>
+            <h1>Hello!</h1>
+            <p></p>
+
+            <li>
+                <strong>Hello there!</strong>
+            </li>
+            <p>Class widget collapsed doesn't work for adrese.</p>
+            <p>What should i do?</p>
+
             <h2>Exercises</h2>
             <ol>
                 <li>Add new widget</li>

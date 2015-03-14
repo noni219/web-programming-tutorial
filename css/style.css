@@ -117,7 +117,7 @@ footer {
 .widget {
     margin-bottom: 5px;
     border-radius: 8px;
-    background: #fff;
+    background: #fff34b;
     border-width: 0 1px 1px 0;
     border-style: solid;
     border-color: #00aeef;
@@ -147,7 +147,19 @@ footer {
 .widget.collapsed .content {
     display: none;
 }
+#adrese-widget input{
 
+    width: 100%;
+}
+
+
+.table,tr,td{
+    border: 1px solid red;
+     color: #00aeef;
+}
+.table,th{
+    color: darkblue;
+}
 .widget.collapsed .header {
     border-radius: 8px;
     background-image: url("../img/toggle-expand.png");
@@ -155,8 +167,18 @@ footer {
 
 #google-search #q{
     margin: 5px 0;
+    width: 100%;
 }
-
+.luni{
+   color: #00aeef;
+    background: blueviolet;
+}
+.marti{
+    color: darkgreen;
+}
+.miercuri{
+    background: midnightblue;
+}
 #content {
     padding-left: 220px
 }
@@ -166,6 +188,9 @@ footer {
 }
 
 /* for debugging layers use class="borders" */
+.breadcrumb{
+    color: #00aeef;
+}
 .borders {
     padding: 5px;
     margin: 5px;
